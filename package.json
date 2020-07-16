@@ -1,0 +1,24 @@
+{
+  "name": "mywebpack-myself",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kipishinsky/webPack.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "webpack"
+  ],
+  "author": "kipish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kipishinsky/webPack/issues"
+  },
+  "homepage": "https://github.com/kipishinsky/webPack#readme"
+}
