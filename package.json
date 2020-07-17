@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "dev:watch" : "webpack --mode development --watch" // автосборка проекта
+    "dev:watch": "webpack --mode development --watch"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,11 @@
   "homepage": "https://github.com/kipishinsky/webPack#readme",
   "devDependencies": {
     "cli": "^1.0.1",
+    "css-loader": "^3.6.0",
     "html-webpack-plugin": "^4.3.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   },

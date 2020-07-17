@@ -12,8 +12,10 @@ npm run dev:watch //запустить watch режим
 ctrl + с = выйти из режима
 
 
-
-
+https://webpack.js.org/loaders/
+npm install --save-dev css-loader
+npm install sass-loader sass webpack --save-dev
+npm install --save-dev style-loader
 
 
 
