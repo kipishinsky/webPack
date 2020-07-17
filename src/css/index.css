@@ -5,7 +5,7 @@ margin: 0;
     box-sizing: border-box;
 }
 
-.box {
+.app {
     width: 600px;
     margin: 0 auto;
     min-height: 200px;

@@ -54,4 +54,15 @@ import './css/less/index.less'
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'less-loader']
     },
 
+
+// react jsx
+npm i -S react react-dom
+import React from 'react'
+import {render} from 'react-dom'
+https://babeljs.io/docs/en/babel-preset-react
+npm install --save-dev @babel/preset-react
+
+
+
+
 */

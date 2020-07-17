@@ -5,10 +5,29 @@ margin: 0;
     box-sizing: border-box;
 }
 
-.box {
+.app {
     width: 600px;
     margin: 0 auto;
     min-height: 200px;
     border: 1px solid black;
 
 }
+
+header {
+  padding: 200px;
+}
+
+.box {
+  padding: 20px;
+}
+
+.box-title {
+  text-align: center;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.box-text {
+  margin-bottom: 20px;
+}
+
