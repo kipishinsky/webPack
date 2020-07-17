@@ -1,6 +1,6 @@
 import React from 'react'
 import $ from 'jquery'
-
+import './modules/ts.module.ts'
 
 export default class App extends React.Component {
 

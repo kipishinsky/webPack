@@ -63,6 +63,21 @@ https://babeljs.io/docs/en/babel-preset-react
 npm install --save-dev @babel/preset-react
 
 
+// компиляция typescript
+npm install --save-dev @babel/preset-typescript
+
+.babelrc
+["@babel/preset-typescript"]
+
+    webpack.config
+    resolve: {
+        extensions: ['.js', '.ts']
+    },
+    {
+        test: /\.(js|ts) $/,
+        exclude: /node_modules/,
+        loader: "babel-loader"
+    }
 
 
 */
