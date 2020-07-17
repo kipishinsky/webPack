@@ -22,6 +22,11 @@ npm install --save-dev optimize-css-assets-webpack-plugin // оптимизир�
 npm install terser-webpack-plugin --save-dev // оптимизация bundle
 
 
+// локальный сервер
+https://webpack.js.org/configuration/dev-server/
+npm install -D webpack-dev-server
+"start" : "webpack-dev-server --mode development --open" // в package.json добавляет в scripts
+
 
 
 

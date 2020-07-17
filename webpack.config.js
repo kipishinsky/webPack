@@ -17,6 +17,10 @@ module.exports = {
             new TerserPlugin ()
         ]
     },
+    devServer: {
+        contentBase: path.resolve(__dirname,'dist'),
+        port: 4200
+    },
     plugins: [
         new HTMLPlugin({
             filename: 'index.html',
