@@ -45,5 +45,13 @@ npm install -D babel-loader
 }
 
 
+//подключаем less
+npm install less-loader less --save-dev
+import './css/less/index.less'
+    в конфигурацию вебпака
+    {
+        test: /\.less$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'less-loader']
+    },
 
 */
