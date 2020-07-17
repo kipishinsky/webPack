@@ -46,6 +46,9 @@ module.exports = {
                     // Compiles Sass to CSS
                     'sass-loader',
                     ]
+            },
+            {
+                test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"
             }
         ]
     }

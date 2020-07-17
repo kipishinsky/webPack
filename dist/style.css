@@ -1,1 +1,14 @@
-*{margin:0;padding:0;box-sizing:border-box}.box{width:600px;margin:0 auto;min-height:200px;border:1px solid #000}
+/*всем*/
+* {
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 600px;
+    margin: 0 auto;
+    min-height: 200px;
+    border: 1px solid black;
+
+}

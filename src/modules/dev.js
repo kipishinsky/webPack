@@ -28,6 +28,22 @@ npm install -D webpack-dev-server
 "start" : "webpack-dev-server --mode development --open" // в package.json добавляет в scripts
 
 
+https://babeljs.io/
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
+npm install --save @babel/polyfill // можем преобразовать псевдомассивы в массив
+{ test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
+npm install -D babel-loader
+создаем файл в корне .babelrc // служит для пересов синтаксисов
+    {
+  "presets" : [
+    ["@babel/preset-env", {
+      "targets" :[
+        "last 5 versions"
+      ]
+    }]
+  ]
+}
+
 
 
 */
