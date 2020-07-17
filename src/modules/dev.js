@@ -17,6 +17,12 @@ npm install --save-dev css-loader
 npm install sass-loader sass webpack --save-dev
 npm install --save-dev style-loader
 
+npm install --save-dev mini-css-extract-plugin // сажаем в 1 css файл
+npm install --save-dev optimize-css-assets-webpack-plugin // оптимизируем css файл
+npm install terser-webpack-plugin --save-dev // оптимизация bundle
+
+
+
 
 
 */

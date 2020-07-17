@@ -1,5 +1,8 @@
 const path = require('path');
 const HTMLPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 
 //экспортируем объект
 module.exports = {
@@ -8,17 +11,26 @@ module.exports = {
         filename: 'bundle.js', // создаем файл, в который все сложится вебпаком
         path: path.resolve(__dirname, 'dist') // путь в папку dist, для файла bundle
     },
+    optimization: {
+        minimizer: [
+            new OptimizeCssAssetsPlugin ({}),
+            new TerserPlugin ()
+        ]
+    },
     plugins: [
         new HTMLPlugin({
             filename: 'index.html',
             template: './src/index.html'
+        }),
+        new MiniCssExtractPlugin ({
+            filename: 'style.css'
         })
     ],
     module: {
         rules: [
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                use: [MiniCssExtractPlugin.loader, 'css-loader']
             },
             {
                 test: /\.s[ac]ss$/i,
