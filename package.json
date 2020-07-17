@@ -24,6 +24,7 @@
   "homepage": "https://github.com/kipishinsky/webPack#readme",
   "devDependencies": {
     "cli": "^1.0.1",
+    "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   }
